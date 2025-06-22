@@ -1,0 +1,1013 @@
+
+
+.NAVE{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.FULLWEB{
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #350569, #0c306f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.stbody{
+    width: 100%;
+    
+ 
+}
+
+.first{
+
+    width: 100%;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pj{
+  border-radius: 5%;
+    padding-top: 5%;
+    background: url(/YDKPJ.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.texti{
+    font-size: 1.8rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.texti h6{
+    color:rgb(160, 2, 154);
+    padding-top: 3%;
+    font-size: large;
+    font-weight: lighter;
+
+}
+
+.second{
+    color: white;
+    padding-top: 5%;
+    text-align: center;
+    align-items: center;
+    /* From https://css.glass */
+background: rgba(29, 29, 29, 0.265);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(5px);
+}
+
+
+.second{
+    padding-top: 8%;
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+}
+.second h5{
+    font-size: small;
+    padding-top: 1%;
+    font-weight: 300;
+
+}
+
+.second h1{
+    font-size: medium;
+    padding-top: 1%;
+
+}
+
+
+.second h5{
+    font-size: small;
+    padding-top: 1%;
+    font-weight: 300;
+}
+
+.imgcli{
+    padding: 2%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    gap: 8%;
+}
+
+.stats{
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 3%;
+
+}
+
+.clients{
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients img{
+    width: 6vw;
+}
+
+.clients h3{
+    align-items: center;
+    color:  #07cebad9;
+    padding-left: 4%;
+}
+
+.clients h5{
+    align-items: center;
+    padding-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.third{
+    padding-top: 5%;
+    text-align: center;
+    align-items: center;
+    background: rgba(29, 29, 29, 0.265);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(5px);
+
+    
+}
+
+
+.third h1{
+    color: white;
+    font-size: 2.3vw;
+}
+
+.third h5{
+    margin: 5%;
+    font-weight: 300;
+    font-size: small;
+    color: #f6f2f2;
+    padding-top: 1%;
+    align-items: center;
+}
+
+.suit{
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.suit div{
+    width: 28%;
+}
+
+.suit img{
+    width: 25%;
+}
+.memb1,.memb2,.memb3{
+    margin: 2%;
+    padding: 5%;
+    box-shadow: 0px 0px 10px rgba(138, 6, 210, 0.285);}
+
+.suit h3{
+    color: white;
+        padding-top: 5%;
+    }
+
+.suit h5{
+    font-size: smaller;
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .offcanvas-custom {
+        width: 20%; /* Set width to 50% */
+    }
+    .third h1{
+        font-size: 5vw;
+        padding: 4%;
+    }
+
+    .suit{
+        padding: 4%;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .suit div{
+        width: 100%;
+    }
+    .memb1 ,.memb2,.memb3{
+        padding: 9%;
+        margin: 0%;
+    }
+
+    .stats{
+        margin-top: 9%;
+        display: block;
+    }
+
+    .clients img{
+        width: 9vw;
+    }
+
+    .clients{
+        margin-bottom: 9%;
+    }
+    
+    
+}
+
+
+
+
+/* From Uiverse.io by Navarog21 */ 
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container button {
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .container button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  .container button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  
+  .container button:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  
+  .container button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
+
+
+
+
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section {
+    padding: 2%;
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 80px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background:  linear-gradient(to right, #350569, #0c306f);
+}
+.footer-widget ul li {
+  display: inline-block;
+  float:left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color:  #350569;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    padding: 1px 10px;
+   top: 0;
+   background-color: #37043d;
+   width: 20%;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color:  #350569;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #350569;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+.row{
+  color: white
+}
+  
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap");
+
+
+
+
+
+body {
+ 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/8727c9b1-be21-4932-a221-4257b59a74dd);
+  background-repeat: no-repeat;
+  animation: slidein 100s forwards infinite alternate;
+}
+
+@keyframes slidein {
+    0%,
+    100% {
+      background-position: 20% 0%;
+      background-size: 3800px;
+    }
+    50% {
+      background-position: 100% 0%;
+      background-size: 4800px;
+    }
+  }
+
+/* From Uiverse.io by gharsh11032000 */ 
+.form-container {
+  margin-top: 60px;
+  width: 100%;
+  background: rgba(29, 29, 29, 0.649) padding-box,
+              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  backdrop-filter: blur(10px);
+  padding: 10%;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #717171;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #fff;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  font-family: inherit;
+  color: #717171;
+  font-weight: 600;
+  width: 100%;
+  background: #350569;
+  border: 1px solid #37043d;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+.carousel-caption-custom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: 2rem;
+}
+
+
+
+/* From Uiverse.io by Alireza11490 */ 
+.main {
+  padding: 1em;
+  padding-bottom: 1.1em;
+  border-radius: 15px;
+  margin: 1em;
+}
+
+.loader {
+  display: flex;
+  flex-direction: row;
+  height: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  transform: rotate(180deg);
+  justify-content: right;
+  border-radius: 10px;
+  transition: .3s ease-in-out;
+  box-shadow: 0 4px 30px rgba(45, 4, 61, 0.669);
+
+}
+
+
+.currentplaying {
+  display: flex;
+  margin: 1em;
+}
+
+.spotify {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.6em;
+}
+
+.heading {
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  align-self: center;
+}
+
+.loading {
+  display: flex;
+  margin-top: 1em;
+  margin-left: 0.3em;
+}
+
+.load {
+  width: 2px;
+  height: 33px;
+  background-color: limegreen;
+  animation: 1s move6 infinite;
+  border-radius: 5px;
+  margin: 0.1em;
+}
+
+.load:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.load:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.load:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.play {
+  cursor: pointer;
+  position: relative;
+  left: 0.35em;
+  height: 1.6em;
+  width: 1.6em;
+  clip-path: polygon(50% 50%, 100% 50%, 75% 6.6%);
+  background-color: rgb(255, 255, 255);
+  transform: rotate(-90deg);
+  align-self: center;
+  margin-top: 0.7em;
+  justify-self: center;
+}
+
+.albumcover {
+  position: relative;
+  margin-right: 1em;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(233, 232, 232);
+  align-self: center;
+  border-radius: 5px;
+}
+
+.amala{
+  background-image: url(/amala.png);
+  background-position: center;
+  background-size: contain;
+  transform: scaleY(-1); /* Flips the image vertically */
+}
+
+.bc{
+  background-image: url(/BC.jpg);
+  background-position: center;
+  background-size: contain;
+  transform: scaleY(-1); /* Flips the image vertically */
+}
+
+.es{
+  background-image: url(/ES.jpg);
+  background-position: center;
+  background-size: contain;
+  transform: scaleY(-1); /* Flips the image vertically */
+}
+
+.song {
+  padding: 0%;
+  position: relative;
+  transform: rotate(180deg);
+  margin-right: 1em;
+  color: white;
+  align-self: center;
+}
+
+.artist {
+  font-size: 0.6em;
+}
+
+@keyframes move6 {
+  0% {
+    height: 0.2em;
+  }
+
+  25% {
+    height: 0.7em;
+  }
+
+  50% {
+    height: 1.5em;
+  }
+
+  100% {
+    height: 0.2em;
+  }
+}
+
+
+
+.slides{
+  height: 100vh;
+  background: url(/merch.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.products{
+  padding: 3%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 5%;
+  justify-content: center;
+}
+
+.opentxt{
+  color: white;
+  font-weight: 100;
+  padding: 3%;
+
+}
+
+
+
+
+.containerpro{
+  position: relative;
+
+}
+
+.containerpro .card{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #18022497;
+
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+.containerpro h4{
+  color: white;
+  margin-top: 5%;
+}
+
+.containerpro .card:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #320b4f;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.containerpro .card:hover:before{
+  clip-path: circle(300px at 80% -20%);
+  
+}
+
+.containerpro .card:after{
+  content: 'YDK';
+  position: absolute;
+  top: 30%;
+  left: -10%;
+  font-size: 12em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(167, 25, 255, 0.107)
+}
+
+.containerpro .card .imgBx{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 100%;
+  height: 10%;
+  transition: 0.5s;
+}
+
+.containerpro .card:hover .imgBx{
+  top: 0%;
+  transform: translateY(0%);
+    
+}
+
+.containerpro .card .imgBx img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-20deg);
+  width: 270px;
+}
+
+.containerpro .card .contentBx{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.containerpro .card:hover .contentBx{
+  height: 210px;
+}
+
+.containerpro .card .contentBx h2{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+}
+
+.containerpro .card .contentBx .size, .containerpro .card .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.containerpro .card:hover .contentBx .size{
+  opacity: 1;
+  margin-top: 5%;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.containerpro .card:hover .contentBx .color{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.containerpro .card .contentBx .size h3, .container .card .contentBx .color h3{
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.containerpro .card .contentBx .size span{
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  transition: 0.5s;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.containerpro .card .contentBx .size span:hover{
+  background: #9bdc28;
+}
+
+.containerpro .card .contentBx .color span{
+  width: 20px;
+  height: 20px;
+  background: #ff0;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.containerpro .card .contentBx .color span:nth-child(2){
+  background: #9bdc28;
+}
+
+.container .card .contentBx .color span:nth-child(3){
+  background: #03a9f4;
+}
+
+.containerpro .card .contentBx .color span:nth-child(4){
+  background: #e91e63;
+}
+
+.containerpro .card .contentBx a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #111;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+  margin-top: 0;
+}
+
+.containerpro .card:hover .contentBx a{
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.75s;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .slides{
+    height: 60vh;
+  }
+
+  
+
+}
+
+
+
+  
